@@ -39,7 +39,7 @@ function App() {
   const { loading: ethLoading, data: ethPriceData } = useQuery(ETH_PRICE_QUERY)
   const { loading: daiLoading, data: daiData } = useQuery(DAI_QUERY, {
     variables: {
-      tokenAddress: '0x6b175474e89094c44da98b954eedeac495271d0f'
+      tokenAddress: '0xcc42724c6683b7e57334c4e856f4c9965ed682bd'
     }
   })
 
